@@ -8,4 +8,4 @@ En Haskell comparé à beaucoup d'autre langage fonctionel les opérations sur l
 
 # Un lanage de chercheur
 Comme Haskell est quant même un langage fait par des chercheurs, il embarque la division entiére
-@[Division entiére (div)]({"stubs": ["SimpleOperation_Division.hs"], "command": "runhaskell SimpleOperation_Division_Test.hs"})
+@[Division entiére (div)]({"stubs": ["SimpleOperation_IntegerDivision.hs"], "command": "runhaskell SimpleOperation_IntegerDivision_Test.hs"})
