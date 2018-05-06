@@ -2,7 +2,7 @@ title: Haskell Project
 plan:
 - title: Bonjour Haskel
   statement: markdowns/welcome.md
-- title: Les opérations mathématiques
+- title: Les nombres
   statement: markdowns/simpleOperation.md
 projects:
   haskell:
