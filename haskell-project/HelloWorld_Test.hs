@@ -1,4 +1,4 @@
-import HelloWorldRun (helloHaskell)
+import HelloWorld_Run (helloHaskell)
 import qualified TechIo
 import Control.Monad
 import Control.Exception
