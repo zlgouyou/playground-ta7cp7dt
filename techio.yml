@@ -1,7 +1,9 @@
 title: Haskell Project
 plan:
-- title: Welcome
+- title: Bonjour Haskel
   statement: markdowns/welcome.md
+- title: Les opérations mathématiques
+  statement: markdowns/simpleOperation.md
 projects:
   haskell:
     root: /haskell-project

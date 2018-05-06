@@ -29,16 +29,16 @@ data AssertFailed = AssertFailed String deriving Show
 instance Exception AssertFailed
 
 assertHandler (AssertFailed e) = do
-  TechIo.failure
-  TechIo.sendMsg "Oops! 🐞" e
+  failure
+  sendMsg "Oops! 🐞" e
   return Failure
 
 runner tests = handle assertHandler $ do
             tests
-            TechIo.success
+            success
             return Success
 
 simpleTest :: (Eq a, Show a) => a -> a -> IO ()
 simpleTest result expected = do
   unless (result == expected) $ do
-    throw $ TechIo.AssertFailed $ " Attendue \"" ++ show expected ++ "\", obtenue \"" ++ show result ++ "\""
+    throw $ AssertFailed $ " Attendue \"" ++ show expected ++ "\", obtenue \"" ++ show result ++ "\""
