@@ -1,3 +1,3 @@
 {-# LANGUAGE CPP #-}
-module HelloWorldRun(countAllStars) where
+module HelloWorldRun(helloWorld) where
 #include "HelloWorld.hs"
