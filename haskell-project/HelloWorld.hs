@@ -1,2 +1,2 @@
-helloWorld :: String
-helloWorld = ""
+helloHaskell :: String
+helloHaskell = ""

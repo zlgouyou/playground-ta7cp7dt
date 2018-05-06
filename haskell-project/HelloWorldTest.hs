@@ -1,11 +1,11 @@
-import HelloWorldRun (helloWorld)
+import HelloWorldRun (helloHaskell)
 import qualified TechIo
 import Control.Monad
 import Control.Exception
 import Data.IORef
 
 currentTest = do
-    TechIo.simpleTest helloWorld "Bonjour Haskell"
+    TechIo.simpleTest helloHaskell "Bonjour Haskell"
 
 main = do
   result <- TechIo.runner currentTest

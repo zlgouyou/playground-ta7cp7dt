@@ -1,3 +1,3 @@
 {-# LANGUAGE CPP #-}
-module HelloWorldRun(helloWorld) where
+module HelloWorldRun(helloHaskell) where
 #include "HelloWorld.hs"
