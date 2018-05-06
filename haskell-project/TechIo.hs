@@ -41,4 +41,4 @@ runner tests = handle assertHandler $ do
 simpleTest :: (Eq a, Show a) => a -> a -> IO ()
 simpleTest result expected = do
   unless (result == expected) $ do
-    throw $ TechIo.AssertFailed $ " Attendue " ++ show result ++ ", obtenue " ++ show expected
+    throw $ TechIo.AssertFailed $ " Attendue \"" ++ show expected ++ "\", obtenue \"" ++ show result ++ "\""
