@@ -14,4 +14,4 @@ main = do
     TechIo.Failure -> do
       TechIo.sendMsg "Astuce 💡" "Pourquoi tant de haine et ne pas simplement dire Bonjour Haskell? \x1F914"
     TechIo.Success -> do
-      TechIo.sendMsg "Gagné. 🙏" "Bien joué voilà la premiére étape franchie"
+      TechIo.sendMsg "Gagné. 🙏" "Bonjour Humain"
