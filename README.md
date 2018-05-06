@@ -1,2 +1,2 @@
 # haskell-template
-Created by JBM
+Created by Ludovic

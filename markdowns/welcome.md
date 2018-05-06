@@ -7,7 +7,7 @@ The source code isn't on [GitHub](https://github.com/TechDotIO/haskell-template)
 
 # Hands-on Demo
 
-@[Luke, how many stars are there in these galaxies?]({"stubs": ["universe.hs"], "command": "runhaskell test_universe.hs"})
+@[Luke, how many stars are there in these galaxies?]({"stubs": ["HelloWorld.hs"], "command": "runhaskell HelloWorldTest.hs"})
 
 Check out the markdown file `welcome.md` to see how this exercise is injected into the template.
 
