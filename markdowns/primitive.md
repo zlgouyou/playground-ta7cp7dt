@@ -7,7 +7,7 @@ En Haskell comparé à beaucoup d'autre langage fonctionel les opérations sur l
 @[Multiplication de deux nombres (*)]({"stubs": ["Primitive_Numbers_Multiplication.hs"], "command": "runhaskell Primitive_Numbers_Multiplication_Test.hs"})
 @[Division de deux nombres (/)]({"stubs": ["Primitive_Numbers_Division.hs"], "command": "runhaskell Primitive_Numbers_Division_Test.hs"})
 
-## Un lanage de chercheur
+## Un language de chercheur
 Comme Haskell est quant même un langage fait par des chercheurs, il embarque la division entiére
 @[Division entiére (div)]({"stubs": ["Primitive_Numbers_IntegerDivision.hs"], "command": "runhaskell Primitive_Numbers_IntegerDivision_Test.hs"})
 
