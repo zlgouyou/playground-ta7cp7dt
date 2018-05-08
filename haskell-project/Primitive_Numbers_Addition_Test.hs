@@ -1,4 +1,4 @@
-import SimpleOperation_Addition_Run (add)
+import Primitve_Numbers_Addition_Run (add)
 import qualified TechIo
 import Control.Monad
 import Control.Exception
