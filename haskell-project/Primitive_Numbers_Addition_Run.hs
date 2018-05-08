@@ -1,3 +1,3 @@
 {-# LANGUAGE CPP #-}
-module SimpleOperation_Addition_Run(add) where
-#include "SimpleOperation_Addition.hs"
+module Primitive_Numbers_Addition_Run(add) where
+#include "Primitive_Numbers_Addition.hs"

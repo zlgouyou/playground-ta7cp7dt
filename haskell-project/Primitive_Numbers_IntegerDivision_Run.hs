@@ -1,3 +1,3 @@
 {-# LANGUAGE CPP #-}
-module SimpleOperation_IntegerDivision_Run(intDiv) where
-#include "SimpleOperation_IntegerDivision.hs"
+module Primitive_Numbers_IntegerDivision_Run(intDiv) where
+#include "Primitive_Numbers_IntegerDivision.hs"

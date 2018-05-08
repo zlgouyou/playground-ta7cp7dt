@@ -1,4 +1,4 @@
-import SimpleOperation_Subtraction_Run (sub)
+import Primitive_Numbers_Subtraction_Run (sub)
 import qualified TechIo
 import Control.Monad
 import Control.Exception

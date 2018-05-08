@@ -1,4 +1,4 @@
-import SimpleOperation_Multiplication_Run (mult)
+import Primitive_Numbers_Multiplication_Run (mult)
 import qualified TechIo
 import Control.Monad
 import Control.Exception

@@ -1,4 +1,4 @@
-import SimpleOperation_IntegerDivision_Run (intDiv)
+import Primitive_Numbers_IntegerDivision_Run (intDiv)
 import qualified TechIo
 import Control.Monad
 import Control.Exception
