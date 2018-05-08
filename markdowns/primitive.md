@@ -14,3 +14,4 @@ Comme Haskell est quant même un langage fait par des chercheurs, il embarque la
 # Les bouléens
 @[Un simple bouléen]({"stubs": ["Primitive_Boolean_True.hs"], "command": "runhaskell Primitive_Boolean_True_Test.hs"})
 @[La négation]({"stubs": ["Primitive_Boolean_Not.hs"], "command": "runhaskell Primitive_Boolean_Not_Test.hs"})
+@[L'égalité]({"stubs": ["Primitive_Boolean_Eq.hs"], "command": "runhaskell Primitive_Boolean_Eq_Test.hs"})
