@@ -1,0 +1,2 @@
+vrai ::  Bool
+vrai = a
