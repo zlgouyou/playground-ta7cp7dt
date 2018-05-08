@@ -7,7 +7,7 @@ import Data.IORef
 currentTest = do
     TechIo.simpleTest (less 1 1) False
     TechIo.simpleTest (less 1 2) True
-    TechIo.simpleTest (less 3 2) True
+    TechIo.simpleTest (less 3 2) False
 
 main = do
   result <- TechIo.runner currentTest
