@@ -1,0 +1,2 @@
+mysteriousChar :: Char
+mysteriousChar = 'C'
