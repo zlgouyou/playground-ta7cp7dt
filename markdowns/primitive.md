@@ -16,3 +16,4 @@ Comme Haskell est quant même un langage fait par des chercheurs, il embarque la
 @[La négation]({"stubs": ["Primitive_Boolean_Not.hs"], "command": "runhaskell Primitive_Boolean_Not_Test.hs"})
 @[L'égalité]({"stubs": ["Primitive_Boolean_Eq.hs"], "command": "runhaskell Primitive_Boolean_Eq_Test.hs"})
 @[La difference]({"stubs": ["Primitive_Boolean_NotEqual.hs"], "command": "runhaskell Primitive_Boolean_NotEqual_Test.hs"})
+@[Plus petit que]({"stubs": ["Primitive_Boolean_Less.hs"], "command": "runhaskell Primitive_Boolean_Less_Test.hs"})
