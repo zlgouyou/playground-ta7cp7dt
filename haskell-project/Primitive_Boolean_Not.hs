@@ -1,2 +1,2 @@
-invert ::  Bool -> Bool
+invert :: Bool -> Bool
 invert a = False

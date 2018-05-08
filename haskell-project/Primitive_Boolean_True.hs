@@ -1,2 +1,2 @@
-vrai ::  Bool
+vrai :: Bool
 vrai = False

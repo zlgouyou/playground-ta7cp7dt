@@ -1,2 +1,2 @@
-different ::  Int -> Int -> Bool
+different :: Int -> Int -> Bool
 different a b = False
