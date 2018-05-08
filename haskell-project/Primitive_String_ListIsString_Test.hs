@@ -14,6 +14,5 @@ main = do
     TechIo.Failure -> do
       TechIo.sendMsg "Astuce 💡" "Le rock est certe éternel comme la pierre cenpendant ils ne s'écrivent pas de la même façon! \x1F914"
     TechIo.Success -> do
-      TechIo.sendMsgs "Bien joué. 🎆" [
-        "Il n'y a que ça de vrai Humain \x1F3B8",
-        "Pour plus d'information: http://hackage.haskell.org/package/base-4.11.1.0/docs/Data-String.html"]
+      TechIo.sendMsg "Bien joué. 🎆" "Il n'y a que ça de vrai Humain \x1F3B8"
+      TechIo.sendMsg "Astuce 💡" "Pour plus d'information: http://hackage.haskell.org/package/base-4.11.1.0/docs/Data-String.html"
