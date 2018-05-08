@@ -20,3 +20,4 @@ Comme Haskell est quant même un langage fait par des chercheurs, il embarque la
 
 # Les chaines de charactéres
 @[Le chratére plus proche du sygne de l'infini]({"stubs": ["Primitive_String_Char.hs"], "command": "runhaskell Primitive_String_Char_Test.hs"})
+@[Bonjour personalisé]({"stubs": ["Primitive_String_Concat.hs"], "command": "runhaskell Primitive_String_Concat_Test.hs"})
