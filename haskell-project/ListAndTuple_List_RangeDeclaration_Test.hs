@@ -5,7 +5,7 @@ import Control.Exception
 import Data.IORef
 
 currentTest = do
-    TechIo.simpleTest listFrom1To1000 [1..1000]
+    TechIo.simpleTest listFrom1To1000 [10..1000]
 
 main = do
   result <- TechIo.runner currentTest
