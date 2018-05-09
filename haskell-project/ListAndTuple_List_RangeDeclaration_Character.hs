@@ -1,0 +1,2 @@
+alphabet :: [Char]
+alphabet = ['A']
