@@ -15,4 +15,4 @@ main = do
       TechIo.sendMsg "Astuce 💡" "Humain à ce rythme je vais te battre \x1F914"
     TechIo.Success -> do
       TechIo.sendMsg "Bien joué. 🎆" "Toujours plus vite toujours plus loin"
-      TechIo.sendMsg "Astuce 💡" "Afin de définir cette liste on peut utiliser les \"ranges\" : [1..5] \x1F914"
+      TechIo.sendMsg "Astuce 💡" "Afin de définir cette liste on peut utiliser les \"ranges\" : [1..5] \x1F609"
