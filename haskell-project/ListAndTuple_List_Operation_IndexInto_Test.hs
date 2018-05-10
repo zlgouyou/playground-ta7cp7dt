@@ -1,4 +1,4 @@
-import ListAndTuple_List_IndexInto_Run (getElementIntoAList)
+import ListAndTuple_List_Operation_IndexInto_Run (getElementIntoAList)
 import qualified TechIo
 import Control.Monad
 import Control.Exception

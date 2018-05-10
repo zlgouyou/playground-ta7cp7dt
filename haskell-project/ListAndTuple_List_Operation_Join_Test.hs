@@ -1,4 +1,4 @@
-import ListAndTuple_List_Join_Run (joinList)
+import ListAndTuple_List_Operation_Join_Run (joinList)
 import qualified TechIo
 import Control.Monad
 import Control.Exception

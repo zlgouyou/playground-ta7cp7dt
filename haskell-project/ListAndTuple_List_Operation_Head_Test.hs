@@ -1,4 +1,4 @@
-import ListAndTuple_List_Head_Run (getHead)
+import ListAndTuple_List_Operation_Head_Run (getHead)
 import qualified TechIo
 import Control.Monad
 import Control.Exception
