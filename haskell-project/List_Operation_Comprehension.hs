@@ -1,0 +1,2 @@
+allSquare :: [Int]
+allSquare = []
