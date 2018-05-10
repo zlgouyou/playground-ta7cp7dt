@@ -1,13 +1,13 @@
-import List_Operation_Tail_Run (getTail)
+import List_Operation_Tail_Run (getEnd)
 import qualified TechIo
 import Control.Monad
 import Control.Exception
 import Data.IORef
 
 currentTest = do
-    TechIo.simpleTest (getTail [1..5]) [2..5]
-    TechIo.simpleTest (getTail [3..4]) [4]
-    TechIo.simpleTest (getTail [4]) []
+    TechIo.simpleTest (getEnd [1..5]) [2..5]
+    TechIo.simpleTest (getEnd [3..4]) [4]
+    TechIo.simpleTest (getEnd [4]) []
 
 main = do
   result <- TechIo.runner currentTest

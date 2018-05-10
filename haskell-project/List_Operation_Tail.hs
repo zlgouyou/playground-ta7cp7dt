@@ -1,2 +1,2 @@
-getTail :: [Int] -> [Int]
-getTail list = []
+getEnd :: [Int] -> [Int]
+getEnd list = []
