@@ -1,4 +1,4 @@
-import ListAndTuple_List_RangeDeclaration_Run (listFrom1To1000)
+import ListAndTuple_List_Declaration_RangeInteger_Run (listFrom1To1000)
 import qualified TechIo
 import Control.Monad
 import Control.Exception

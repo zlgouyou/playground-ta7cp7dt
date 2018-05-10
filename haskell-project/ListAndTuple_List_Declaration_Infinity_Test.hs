@@ -1,4 +1,4 @@
-import ListAndTuple_List_InfinityDeclaration_Run (allInteger)
+import ListAndTuple_List_Declaration_Infinity_Run (allInteger)
 import qualified TechIo
 import Control.Monad
 import Control.Exception

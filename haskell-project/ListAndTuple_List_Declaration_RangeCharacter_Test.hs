@@ -1,4 +1,4 @@
-import ListAndTuple_List_RangeDeclaration_Character_Run (alphabet)
+import ListAndTuple_List_Declaration_RangeCharacter_Run (alphabet)
 import qualified TechIo
 import Control.Monad
 import Control.Exception

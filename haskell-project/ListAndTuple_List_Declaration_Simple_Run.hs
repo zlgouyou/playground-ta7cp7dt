@@ -1,3 +1,3 @@
 {-# LANGUAGE CPP #-}
-module ListAndTuple_List_SimpleDeclaration_Run(listFrom1To5) where
-#include "ListAndTuple_List_SimpleDeclaration.hs"
+module ListAndTuple_List_Declaration_Simple_Run(listFrom1To5) where
+#include "ListAndTuple_List_Declaration_Simple.hs"

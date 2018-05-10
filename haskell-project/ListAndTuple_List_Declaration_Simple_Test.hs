@@ -1,4 +1,4 @@
-import ListAndTuple_List_SimpleDeclaration_Run (listFrom1To5)
+import ListAndTuple_List_Declaration_Simple_Run (listFrom1To5)
 import qualified TechIo
 import Control.Monad
 import Control.Exception
