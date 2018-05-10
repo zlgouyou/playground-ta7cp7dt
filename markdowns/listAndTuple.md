@@ -12,3 +12,4 @@
 @[Ajout en debut de list]({"stubs": ["ListAndTuple_List_AddToHead.hs"], "command": "runhaskell ListAndTuple_List_AddToHead_Test.hs"})
 @[Le premier élément de la liste]({"stubs": ["ListAndTuple_List_Head.hs"], "command": "runhaskell ListAndTuple_List_Head_Test.hs"})
 @[Le dernier élément de la liste]({"stubs": ["ListAndTuple_List_Last.hs"], "command": "runhaskell ListAndTuple_List_Last_Test.hs"})
+@[La queue de la liste]({"stubs": ["ListAndTuple_List_Tail.hs"], "command": "runhaskell ListAndTuple_List_Tail_Test.hs"})
