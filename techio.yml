@@ -4,7 +4,7 @@ plan:
   statement: markdowns/welcome.md
 - title: Les types primitifs
   statement: markdowns/primitive.md
-- title: Listes et tuples
+- title: Listes
   statement: markdowns/list.md
 projects:
   haskell:

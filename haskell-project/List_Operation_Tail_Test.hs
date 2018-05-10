@@ -1,4 +1,4 @@
-import ListAndTuple_List_Operation_Tail_Run (getTail)
+import List_Operation_Tail_Run (getTail)
 import qualified TechIo
 import Control.Monad
 import Control.Exception
