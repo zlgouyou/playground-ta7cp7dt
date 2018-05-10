@@ -15,3 +15,4 @@
 @[La queue de la liste]({"stubs": ["List_Operation_Tail.hs"], "command": "runhaskell List_Operation_Tail_Test.hs"})
 @[Tous les éléments de la liste hors-mi le dernier]({"stubs": ["List_Operation_Init.hs"], "command": "runhaskell List_Operation_Init_Test.hs"})
 @[Tous les entiers naturels au carré]({"stubs": ["List_Operation_Comprehension.hs"], "command": "runhaskell List_Operation_Comprehension_Test.hs"})
+@[Tous les entiers naturels au carré qui sont pairs]({"stubs": ["List_Operation_ComprehensionWithConditional.hs"], "command": "runhaskell List_Operation_ComprehensionWithConditional_Test.hs"})
