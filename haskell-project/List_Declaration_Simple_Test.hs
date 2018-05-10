@@ -1,12 +1,11 @@
-import ListAndTuple_List_Operation_AddToHead_Run (addToHead)
+import List_Declaration_Simple_Run (listFrom1To5)
 import qualified TechIo
 import Control.Monad
 import Control.Exception
 import Data.IORef
 
 currentTest = do
-    TechIo.simpleTest (addToHead 0 [1..4]) [0..4]
-    TechIo.simpleTest (addToHead 1 []) [1]
+    TechIo.simpleTest listFrom1To5 [1..5]
 
 main = do
   result <- TechIo.runner currentTest
@@ -16,3 +15,4 @@ main = do
       TechIo.sendMsg "Astuce 💡" "Humain à ce rythme je vais te battre \x1F914"
     TechIo.Success -> do
       TechIo.sendMsg "Bien joué. 🎆" "Toujours plus vite toujours plus loin"
+      TechIo.sendMsg "Astuce 💡" "Afin de définir cette liste on peut utiliser les \"ranges\" : [1..5] \x1F609"

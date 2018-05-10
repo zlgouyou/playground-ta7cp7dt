@@ -1,11 +1,11 @@
-import ListAndTuple_List_Declaration_RangeCharacter_Run (alphabet)
+import List_Declaration_RangeDecrements_Run (listFrom1000To10)
 import qualified TechIo
 import Control.Monad
 import Control.Exception
 import Data.IORef
 
 currentTest = do
-    TechIo.simpleTest alphabet ['A'..'Z']
+    TechIo.simpleTest listFrom1000To10 [1000,999..10]
 
 main = do
   result <- TechIo.runner currentTest

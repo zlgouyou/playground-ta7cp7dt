@@ -1,16 +1,13 @@
-import ListAndTuple_List_Declaration_Infinity_Run (allInteger)
+import List_Operation_Join_Run (joinList)
 import qualified TechIo
 import Control.Monad
 import Control.Exception
 import Data.IORef
 
-test :: (Eq a, Show a) => a -> a -> IO ()
-test result expected = do
-  unless (result == expected) $ do
-    throw $ TechIo.AssertFailed $ " Les entiers naturels vont de 0 à l'infinie"
-
 currentTest = do
-    test (take 999999 allInteger) (take 999999 [0..])
+    TechIo.simpleTest (joinList [1..4] []) [1..4]
+    TechIo.simpleTest (joinList [] [1..4]) [1..4]
+    TechIo.simpleTest (joinList [1..4] [5..8]) [1..8]
 
 main = do
   result <- TechIo.runner currentTest

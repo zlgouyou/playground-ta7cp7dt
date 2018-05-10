@@ -1,11 +1,12 @@
-import ListAndTuple_List_Declaration_RangeDecrements_Run (listFrom1000To10)
+import List_Operation_AddToHead_Run (addToHead)
 import qualified TechIo
 import Control.Monad
 import Control.Exception
 import Data.IORef
 
 currentTest = do
-    TechIo.simpleTest listFrom1000To10 [1000,999..10]
+    TechIo.simpleTest (addToHead 0 [1..4]) [0..4]
+    TechIo.simpleTest (addToHead 1 []) [1]
 
 main = do
   result <- TechIo.runner currentTest

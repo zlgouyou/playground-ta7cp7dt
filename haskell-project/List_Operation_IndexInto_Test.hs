@@ -1,13 +1,13 @@
-import ListAndTuple_List_Operation_Last_Run (getLast)
+import List_Operation_IndexInto_Run (getElementIntoAList)
 import qualified TechIo
 import Control.Monad
 import Control.Exception
 import Data.IORef
 
 currentTest = do
-    TechIo.simpleTest (getLast [1..5]) 5
-    TechIo.simpleTest (getLast [3..10]) 10
-    TechIo.simpleTest (getLast [4]) 4
+    TechIo.simpleTest (getElementIntoAList [1..5] 2) 3
+    TechIo.simpleTest (getElementIntoAList [5,4..1] 1) 4
+    TechIo.simpleTest (getElementIntoAList [1..] 99) 100
 
 main = do
   result <- TechIo.runner currentTest
