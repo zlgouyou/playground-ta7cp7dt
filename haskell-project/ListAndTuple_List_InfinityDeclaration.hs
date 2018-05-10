@@ -1,0 +1,2 @@
+allInteger :: [Int]
+allInteger = []
