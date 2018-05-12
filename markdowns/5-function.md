@@ -11,3 +11,4 @@
 ## Pattern matching
 @[Utilisez les gardes pour écrire la fonction décrivant une suite de fibonacci]({"stubs": ["Function_PatternMatching_Fibonacci.hs"], "command": "runhaskell Function_PatternMatching_Fibonacci_Test.hs"})
 @[Utilisez le filtrage par motif pour écrire la fonction décrivant une suite de fibonacci]({"stubs": ["Function_PatternMatching_Fibonacci.hs"], "command": "runhaskell Function_PatternMatching_Fibonacci_Test.hs"})
+@[Utilisez le filtrage par motif pour écrire une fonction qui prend en entrée un tuple de deux entiers et qui ajout 1 au premier élément et 2 au second]({"stubs": ["Function_PatternMatching_Tuple.hs"], "command": "runhaskell Function_PatternMatching_Tuple_Test.hs"})
