@@ -6,3 +6,4 @@
 
 ## Opérateurs
 @[Declarez un opérateur // qui realise la division entiére de deux nombres]({"stubs": ["Function_Operator_Declaration.hs"], "command": "runhaskell Function_Operator_Declaration_Test.hs"})
+@[Utilisez votre opérateur avec les chiffres 3 et 2]({"stubs": ["Function_Operator_Use.hs"], "command": "runhaskell Function_Operator_Use_Test.hs"})
