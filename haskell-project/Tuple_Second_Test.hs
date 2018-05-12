@@ -5,8 +5,8 @@ import Control.Exception
 import Data.IORef
 
 currentTest = do
-    TechIo.simpleTest (secondElement (1, "Haskell")) 1
-    TechIo.simpleTest (secondElement ((-1000), "JS is bad")) (-1000)
+    TechIo.simpleTest (secondElement (1, "Haskell")) "Haskell"
+    TechIo.simpleTest (secondElement ((-1000), "JS is bad")) "JS is bad"
 
 main = do
   result <- TechIo.runner currentTest
