@@ -1,5 +1,6 @@
-import Function_Use_Infix_Run (addUse, functionBuiltinUsed)
+import Function_Use_Infix_Run (addUse)
 import qualified TechIo
+import qualified TechIoMockFunction
 import Control.Monad
 import Control.Exception
 import Data.IORef
@@ -18,7 +19,7 @@ main = do
     TechIo.Failure -> do
       TechIo.sendMsg "Astuce 💡" "Humain à ce rythme je vais te battre \x1F914"
     TechIo.Success -> do
-      used <- readIORef functionBuiltinUsed
+      used <- TechIoMockFunction.isFunctionUsed
       case used of
         True -> do
           TechIo.sendMsg "Bien joué. 🎆" "Toujours plus vite toujours plus loin"
