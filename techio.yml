@@ -1,13 +1,13 @@
 title: Haskell Project
 plan:
 - title: Bonjour Haskel
-  statement: markdowns/welcome.md
+  statement: markdowns/1-welcome.md
 - title: Les types primitifs
-  statement: markdowns/primitive.md
+  statement: markdowns/2-primitive.md
 - title: Les listes
-  statement: markdowns/list.md
+  statement: markdowns/3-list.md
 - title: Les tuples
-  statement: markdowns/tuple.md
+  statement: markdowns/4-tuple.md
 projects:
   haskell:
     root: /haskell-project
