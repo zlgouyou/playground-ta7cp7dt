@@ -17,3 +17,4 @@ main = do
       TechIo.sendMsg "Astuce 💡" "Humain à ce rythme je vais te battre \x1F914"
     TechIo.Success -> do
       TechIo.sendMsg "Bien joué. 🎆" "Toujours plus vite toujours plus loin"
+      TechIo.sendMsg "Astuce 💡" "On peut aussi écrire \"(//) = div\""
