@@ -8,6 +8,8 @@ plan:
   statement: markdowns/3-list.md
 - title: Les tuples
   statement: markdowns/4-tuple.md
+- title: Les fonctions
+  statement: markdowns/5-function.md
 projects:
   haskell:
     root: /haskell-project
