@@ -1,5 +1,5 @@
 --module TechIoUtils(success, failure, sendMsg, assertHandler, Message, AssertFailed) where
-module TechIo(success, failure, sendMsg, sendMsgs, Result (Failure, Success), AssertFailed(AssertFailed), runner, simpleTest) where
+module TechIo(success, failure, sendMsg, sendMsgs, Result (Failure, Success), AssertFailed(AssertFailed), runner, simpleTest, assertHandler) where
 
 import Control.Monad
 import Control.Exception
