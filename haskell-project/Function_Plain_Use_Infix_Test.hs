@@ -1,10 +1,9 @@
-import Function_Use_Simple_Run (addUse)
+import Function_Plain_Use_Infix_Run (addUse)
 import qualified TechIo
 import qualified TechIoMockFunction
 import Control.Monad
 import Control.Exception
 import Data.IORef
-
 
 currentTest = do
     TechIo.simpleTest addUse 3

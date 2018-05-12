@@ -1,4 +1,4 @@
-import Function_Definition_Run (add)
+import Function_Plain_Definition_Run (add)
 import qualified TechIo
 import Control.Monad
 import Control.Exception
