@@ -13,3 +13,6 @@
 @[Utilisez le filtrage par motif pour écrire la fonction décrivant une suite de fibonacci]({"stubs": ["Function_PatternMatching_Fibonacci.hs"], "command": "runhaskell Function_PatternMatching_Fibonacci_Test.hs"})
 @[Utilisez le filtrage par motif pour écrire une fonction qui prend en entrée un tuple de deux entiers et qui ajout 1 au premier élément et 2 au second]({"stubs": ["Function_PatternMatching_Tuple.hs"], "command": "runhaskell Function_PatternMatching_Tuple_Test.hs"})
 @[Utilisez le filtrage par motif pour écrire une fonction qui qui va appliquer une fonction à tous les éléments d'une liste]({"stubs": ["Function_PatternMatching_List.hs"], "command": "runhaskell Function_PatternMatching_List_Test.hs"})
+
+## Anonymes
+@[Utilisez le la fonction map (Data.List) et une fonction anonyme pour ajouter 2 à tout les éléments de la liste en paramétre]({"stubs": ["Function_Anonymous.hs"], "command": "runhaskell Function_Anonymous_Test.hs"})
