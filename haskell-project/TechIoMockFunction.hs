@@ -1,12 +1,13 @@
-module TechIoMockFunction(functionBuiltinUsed, mockFunction, isFunctionUsed) where
-import Data.IORef
-import System.IO.Unsafe
+module TechIoMockFunction(mockFunction, isFunctionUsed) where
+import qualified TechIoMockFunctionMap as Mock
 
-functionBuiltinUsed :: IORef Bool
-functionBuiltinUsed = unsafePerformIO (newIORef False)
+defaultFunctionName :: String
+defaultFunctionName = "default"
 
 mockFunction :: a -> a
-mockFunction fun = unsafePerformIO (writeIORef functionBuiltinUsed True) `seq` fun
+mockFunction = Mock.mockFunction defaultFunctionName
 
 isFunctionUsed :: IO Bool
-isFunctionUsed = readIORef functionBuiltinUsed
+isFunctionUsed = Mock.isFunctionUsed defaultFunctionName
+
+
