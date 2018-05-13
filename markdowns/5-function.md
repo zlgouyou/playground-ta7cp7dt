@@ -19,3 +19,6 @@
 # Application parciel
 @[Créez une fonction qui ajoutera 10 en utilisant une application partciel de la fonction add définie précédement]({"stubs": ["Function_PartialApplication_Plain.hs"], "command": "runhaskell Function_PartialApplication_Plain_Test.hs"})
 @[Faites la même chose que précédement mais en utilisant l'opérateur +]({"stubs": ["Function_PartialApplication_Operator.hs"], "command": "runhaskell Function_PartialApplication_Operator_Test.hs"})
+
+# Composition
+@[utilisez utilisez la composition pour ]({"stubs": ["Function_Composition.hs"], "command": "runhaskell Function_Composition_Test.hs"})
