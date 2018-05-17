@@ -9,16 +9,13 @@ currentTest = do
     TechIo.simpleTest (myMap (\x -> x+1) [1..5]) [2..6]
     TechIo.simpleTest (myMap length ["A", "AA", "AAA"]) [1..3]
 
-runner tests = handle TechIo.assertHandler $ do
-  tests
-  return TechIo.Success
-
 main = do
-  result <- runner currentTest
+  result <- TechIo.simpleRunner currentTest
 
   case result of
     TechIo.Failure -> do
       TechIo.sendMsg "Astuce 💡" "Humain à ce rythme je vais te battre \x1F914"
+      TechIo.failure
     TechIo.Success -> do
       used <- TechIoMockFunction.isFunctionUsed
       case used of

@@ -1,4 +1,4 @@
-module TechIo(success, failure, sendMsg, sendMsgs, Result (Failure, Success), AssertFailed(AssertFailed), runner, simpleTest, assertHandler) where
+module TechIo(success, failure, sendMsg, sendMsgs, Result (Failure, Success), AssertFailed(AssertFailed), runner, simpleRunner, simpleTest, assertHandler) where
 
 import Control.Monad
 import Control.Exception
@@ -27,14 +27,25 @@ data Result = Failure | Success
 data AssertFailed = AssertFailed String deriving Show
 instance Exception AssertFailed
 
+assertHandler :: AssertFailed -> IO Result
 assertHandler (AssertFailed e) = do
-  failure
   sendMsg "Oops! 🐞" e
   return Failure
 
+runner :: IO a -> IO Result
 runner tests = handle assertHandler $ do
+            result <- simpleRunner tests
+            case result of
+              Success -> do
+                success
+                return Success
+              Failure -> do
+                failure
+                return Failure
+
+simpleRunner :: IO a -> IO Result
+simpleRunner tests = handle assertHandler $ do
             tests
-            success
             return Success
 
 simpleTest :: (Eq a, Show a) => a -> a -> IO ()

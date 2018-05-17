@@ -10,16 +10,13 @@ currentTest = do
     TechIo.simpleTest (joinList [] [1..4]) [1..4]
     TechIo.simpleTest (joinList [1..4] [5..8]) [1..8]
 
-simpleRunner tests = handle TechIo.assertHandler $ do
-            tests
-            return TechIo.Success
-
 main = do
-  result <- simpleRunner currentTest
+  result <- TechIo.simpleRunner currentTest
 
   case result of
     TechIo.Failure -> do
       TechIo.sendMsg "Astuce 💡" "Humain à ce rythme je vais te battre \x1F914"
+      TechIo.failure
     TechIo.Success -> do
       used <- Mock.isFunctionUsed
       case used of
