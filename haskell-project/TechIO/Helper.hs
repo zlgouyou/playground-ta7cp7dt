@@ -1,4 +1,4 @@
-module TechIo(success, failure, sendMsg, sendMsgs, Result (Failure, Success), AssertFailed(AssertFailed), runner, simpleRunner, simpleTest, assertHandler) where
+module TechIO.Helper(success, failure, sendMsg, sendMsgs, Result (Failure, Success), AssertFailed(AssertFailed), runner, simpleRunner, simpleTest, assertHandler) where
 
 import Control.Monad
 import Control.Exception

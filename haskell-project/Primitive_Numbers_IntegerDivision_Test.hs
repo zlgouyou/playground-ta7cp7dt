@@ -1,5 +1,5 @@
 import Primitive_Numbers_IntegerDivision_Run (intDiv)
-import qualified TechIo
+import qualified TechIO.Helper as TechIo
 import Control.Monad
 import Control.Exception
 import Data.IORef

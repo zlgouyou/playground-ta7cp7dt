@@ -1,5 +1,5 @@
 import Function_PatternMatching_Fibonacci_Run (fib)
-import qualified TechIo
+import qualified TechIO.Helper as TechIo
 import Control.Monad
 import Control.Exception
 import Data.IORef

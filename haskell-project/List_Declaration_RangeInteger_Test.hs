@@ -1,5 +1,5 @@
 import List_Declaration_RangeInteger_Run (listFrom1To1000)
-import qualified TechIo
+import qualified TechIO.Helper as TechIo
 import Control.Monad
 import Control.Exception
 import Data.IORef

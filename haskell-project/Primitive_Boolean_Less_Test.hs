@@ -1,5 +1,5 @@
 import Primitive_Boolean_Less_Run (less)
-import qualified TechIo
+import qualified TechIO.Helper as TechIo
 import Control.Monad
 import Control.Exception
 import Data.IORef

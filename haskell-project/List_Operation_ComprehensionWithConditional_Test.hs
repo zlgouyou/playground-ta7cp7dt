@@ -1,6 +1,6 @@
 import List_Operation_ComprehensionWithConditional_Run (allEvenSquare)
-import qualified TechIo
-import qualified TechIoMockFunction as Mock
+import qualified TechIO.Helper as TechIo
+import qualified TechIO.VerifyUsedFunctionSimple as Verify
 import Control.Monad
 import Control.Exception
 import Data.IORef
@@ -21,7 +21,7 @@ main = do
       TechIo.sendMsg "Astuce 💡" "Humain à ce rythme je vais te battre \x1F914"
       TechIo.failure
     TechIo.Success -> do
-      used <- Mock.isFunctionUsed
+      used <- Verify.isFunctionUsed
       case used of
         True -> do
           TechIo.sendMsg "Oops! 🐞" "N'essaye pas de m'avoir humain tu n'as pas le droit d'utiliser la fonction map!"

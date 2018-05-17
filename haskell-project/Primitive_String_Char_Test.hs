@@ -1,5 +1,5 @@
 import Primitive_String_Char_Run (mysteriousChar)
-import qualified TechIo
+import qualified TechIO.Helper as TechIo
 import Control.Monad
 import Control.Exception
 import Data.IORef

@@ -1,6 +1,6 @@
 import Function_Composition_Run (foo)
-import qualified TechIo
-import qualified TechIoMockFunction as Mock
+import qualified TechIO.Helper as TechIo
+import qualified TechIO.VerifyUsedFunctionSimple as Verify
 import Control.Monad
 import Control.Exception
 import Data.IORef
@@ -18,7 +18,7 @@ main = do
       TechIo.sendMsg "Astuce 💡" "Humain à ce rythme je vais te battre \x1F914"
       TechIo.failure
     TechIo.Success -> do
-      used <- Mock.isFunctionUsed
+      used <- Verify.isFunctionUsed
       case used of
         True -> do
           TechIo.sendMsg "Bien joué. 🎆" "Toujours plus vite toujours plus loin"

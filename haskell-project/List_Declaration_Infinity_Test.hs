@@ -1,5 +1,5 @@
 import List_Declaration_Infinity_Run (allInteger)
-import qualified TechIo
+import qualified TechIO.Helper as TechIo
 import Control.Monad
 import Control.Exception
 import Data.IORef
