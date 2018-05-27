@@ -1,6 +1,6 @@
 title: Nightclazz Zenika Bordeaux
 plan:
-- title: Bonjour Haskel
+- title: Bonjour Haskell
   statement: markdowns/1-welcome.md
 - title: Les types primitifs
   statement: markdowns/2-primitive.md

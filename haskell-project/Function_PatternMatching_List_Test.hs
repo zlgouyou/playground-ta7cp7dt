@@ -20,7 +20,7 @@ main = do
       used <- Verify.isFunctionUsed
       case used of
         True -> do
-          TechIo.sendMsg "Oops! 🐞" "N'essaye pas de m'avoir humain tu n'as pas le droit d'utiliser la fonction map!"
+          TechIo.sendMsg "Oops! 🐞" "N'essaye pas de m'avoir humain, tu n'as pas le droit d'utiliser la fonction map!"
           TechIo.failure
         False -> do
           TechIo.sendMsg "Bien joué. 🎆" "Toujours plus vite toujours plus loin"

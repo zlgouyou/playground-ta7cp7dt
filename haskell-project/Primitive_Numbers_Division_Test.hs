@@ -15,6 +15,6 @@ main = do
 
   case result of
     TechIo.Failure -> do
-      TechIo.sendMsg "Astuce 💡" "La calculatrice est surement ton melleur ami \x1F914"
+      TechIo.sendMsg "Astuce 💡" "La calculatrice est surement ta meilleure amie \x1F914"
     TechIo.Success -> do
-      TechIo.sendMsg "Bien joué. 🎆" "C'est bon tu maitrise la division"
+      TechIo.sendMsg "Bien joué. 🎆" "C'est bon tu maîtrise la division"

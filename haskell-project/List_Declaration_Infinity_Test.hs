@@ -7,7 +7,7 @@ import Data.IORef
 test :: (Eq a, Show a) => a -> a -> IO ()
 test result expected = do
   unless (result == expected) $ do
-    throw $ TechIo.AssertFailed $ " Les entiers naturels vont de 0 à l'infinie"
+    throw $ TechIo.AssertFailed $ " Les entiers naturels vont de 0 à l'infini"
 
 currentTest = do
     test (take 999999 allInteger) (take 999999 [0..])

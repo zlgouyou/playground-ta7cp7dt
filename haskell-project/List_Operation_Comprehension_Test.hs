@@ -8,7 +8,7 @@ import Data.IORef
 test :: (Eq a, Show a) => a -> a -> IO ()
 test result expected = do
   unless (result == expected) $ do
-    throw $ TechIo.AssertFailed $ " Les carrés entiers naturels vont de 0 à l'infinie"
+    throw $ TechIo.AssertFailed $ " Les carrés entiers naturels vont de 0 à l'infini"
 
 currentTest = do
     test (take 999999 allSquare) (take 999999 [ x^2 | x <- [0..]])
@@ -24,7 +24,7 @@ main = do
       used <- Verify.isFunctionUsed
       case used of
         True -> do
-          TechIo.sendMsg "Oops! 🐞" "N'essaye pas de m'avoir humain tu n'as pas le droit d'utiliser la fonction map!"
+          TechIo.sendMsg "Oops! 🐞" "N'essaye pas de m'avoir humain, tu n'as pas le droit d'utiliser la fonction map!"
           TechIo.failure
         False -> do
           TechIo.sendMsg "Bien joué. 🎆" "Toujours plus vite toujours plus loin"

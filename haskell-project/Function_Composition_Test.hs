@@ -24,5 +24,5 @@ main = do
           TechIo.sendMsg "Bien joué. 🎆" "Toujours plus vite toujours plus loin"
           TechIo.success
         False -> do
-          TechIo.sendMsg "Oops! 🐞" "N'essaye pas de m'avoir humain utilise la composition de fonction!"
+          TechIo.sendMsg "Oops! 🐞" "N'essaye pas de m'avoir humain, utilise la composition de fonction!"
           TechIo.failure
