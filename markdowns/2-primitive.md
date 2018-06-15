@@ -1,6 +1,6 @@
 # Les nombres
 ## Les opérations sur les nombres
-En Haskell comparé à beaucoup d'autres languages fonctionnels les opérations sur les *entiers* ou les *rationnels* se font via les mêmes opérateurs.
+En Haskell, comparé à beaucoup d'autres languages fonctionnels, les opérations sur les *entiers* ou les *rationnels* se font via les mêmes opérateurs.
 
 @[Addition de deux nombres (+)]({"stubs": ["Primitive_Numbers_Addition.hs"], "command": "runhaskell Primitive_Numbers_Addition_Test.hs"})
 @[Soustraction de deux nombres (-)]({"stubs": ["Primitive_Numbers_Subtraction.hs"], "command": "runhaskell Primitive_Numbers_Subtraction_Test.hs"})
