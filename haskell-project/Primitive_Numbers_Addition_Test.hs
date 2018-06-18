@@ -17,4 +17,4 @@ main = do
     TechIo.Failure -> do
       TechIo.sendMsg "Astuce 💡" "La calculatrice est surement ta meilleure amie \x1F914"
     TechIo.Success -> do
-      TechIo.sendMsg "Bien joué. 🎆" "C'est bon tu maîtrise l'addition"
+      TechIo.sendMsg "Bien joué. 🎆" "C'est bon tu maîtrises l'addition"

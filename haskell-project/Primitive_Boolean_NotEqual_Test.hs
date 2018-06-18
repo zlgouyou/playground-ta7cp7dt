@@ -23,6 +23,6 @@ main = do
          TechIo.sendMsg "Bien joué. 🎆" "Toujours plus vite toujours plus loin"
          TechIo.success
        False -> do
-         TechIo.sendMsg "Oops! 🐞" "N'essaye pas de m'avoir humain, utilise la fonction verifiant l'inégalité!"
+         TechIo.sendMsg "Oops! 🐞" "N'essayes pas de m'avoir humain, utilise la fonction verifiant l'inégalité!"
          TechIo.sendMsg "Astuce 💡" "Dans beaucoup de languages elle se symbolise par \"!=\" \x1F914"
          TechIo.failure
